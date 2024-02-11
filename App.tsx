@@ -11,17 +11,17 @@ const App = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={{headerShown: false}}>
-      <Stack.Screen 
-          name="Tab" 
-          component={TabNavigator} 
+      <Stack.Screen
+          name="Tab"
+          component={TabNavigator}
           options={{animation:'slide_from_bottom'}}></Stack.Screen>
-        <Stack.Screen 
-          name="Details" 
-          component={DetailsScreen} 
+        <Stack.Screen
+          name="Details"
+          component={DetailsScreen}
           options={{animation:'slide_from_bottom'}}></Stack.Screen>
-        <Stack.Screen 
-          name="Payment" 
-          component={PaymentScreen} 
+        <Stack.Screen
+          name="Payment"
+          component={PaymentScreen}
           options={{animation:'slide_from_bottom'}}></Stack.Screen>
       </Stack.Navigator>
     </NavigationContainer>
